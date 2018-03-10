@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+	#overlay{
+		position: absolute;
+		top:0;
+		left: 0px;
+		height: 100%;
+		width: 100%;
+		background-color: rgba(0,0,0,0.);
+
+	}
+		#loder{
+			height: 100px;
+			width:  100px;
+			border: 10px solid black;
+			margin: 10% auto ;
+			border-top: 10px solid red;
+			border-radius: 50%;
+			animation:round 2s infinite linear;
+
+		}
+		@keyframes round{
+			from{transform: rotate(0deg);top:0;}
+			to{transform: rotate(360deg);right:0;bottom: 0px;}
+		}
+	</style>
+</head>
+<body>
+
+<div id="overlay"> 
+	<div id="loder"></div>
+</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zxf1mnP5zcw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</body>
+<script>
+		var a=document.getElementById('overlay');
+		window.addEventListener('load',function()
+		{
+			a.style.display='none';
+		})
+	
+</script>
+</html>

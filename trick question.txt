@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>trick question in interview</title>
+</head>
+<style>
+	p{
+		color: blue !important;
+	}
+	.the-p{
+		color: purple;
+	}
+	#paragraph{
+		color: green;
+	}
+	div p{
+		color:red;
+	}
+</style>
+<body>
+	<div>
+		<p id="paragraph" class="the-p" style="color: yellow">HELLO </p>
+	</div>
+
+</body>
+</html>

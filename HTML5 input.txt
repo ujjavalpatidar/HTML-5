@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>html 5 inputs</h1>
+	<label for="fname">click this label</label>
+	<input type="text" name="" id="fname">
+	<br><br>
+
+	<label for="form-color">color</label>
+	<input type="color" name="" id="form-color">
+	<br><br>
+
+	<label for="form-search">search</label>
+	<input type="search" name="" id="form-search">
+    <br><br>
+
+    <label for="form-email">Email</label>
+    <input type="email" name="" id="form-email"  required>
+    <br><br>
+
+    <label for="form-url">URL</label>
+    <input type="url" name="" id="form-url">
+    <br><br>
+
+    <label for="form-num">Number</label>
+    <input type="number" name="" id="form-num" min="5" max="1000" step="5">
+    <br><br>
+
+    <label for="form-range">Range</label>
+    <input type="range" name="" id="form-range" min="1" max="100" value="0">
+    <br><br>
+
+    <label for="form-date">Date</label>
+    <input type="date" name="" id="form-date" min="2015-01-01" max="2018-01-01">
+    <br><br>
+
+    <label for="form-month">Month</label>
+    <input type="month" name="" id="form-month">
+    <br><br>
+
+    <label for="form-week">Week</label>
+    <input type="week" name="" id="form-week">
+    <br><br>
+
+    <label for="form-time">Time</label>
+    <input type="time" name="" id="form-time">
+    <br><br>
+
+    <label for="form-datetime">Datetime</label>
+    <input type="Datetime" name="" id="form-datetime">
+    <br><br>
+
+    <label for="form-datetimelocal">Datetimelocal</label>
+    <input type="datetimelocal" name="" id="form-datetimelocal">
+    <br><br>
+</body>
+</html>
